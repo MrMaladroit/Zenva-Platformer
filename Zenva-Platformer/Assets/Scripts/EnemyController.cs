@@ -7,7 +7,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField]
     private float enemySpeed = 3f;
     [SerializeField]
-    private float rangeOfYMovemnt = 2f;
+    private float rangeOfYMovemnt = 1.5f;
 
     private int direction = 1;
     private Vector3 initialPos;
